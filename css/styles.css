@@ -74,3 +74,52 @@ body {
     align-items: center;
     border-radius: 11px;
 }
+
+.programming {
+    height: 600px;
+    background-color: #00A651;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+
+}
+
+.description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 560px;
+}
+
+.content-img {
+    margin-right: 144px;
+}
+
+.about_me {
+    color: rgb(25, 216, 72);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    max-width: 700px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-me-text {
+    margin-left: 50px;
+    margin-top: -450px;
+    max-width: 300px;
+}
