@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.my_text {
+    color: rgb(1, 253, 241)
+}
+
+.section_header {
+    background: #00A651;
+    width: 100%;
+    margin: 0;
+    padding-top: 19px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 25px;
+    display: flex;
+}
+
+.header-logo-text {
+    font: normal 'Roboto' 400 16px;
+    color: #FFFFFF;
+    max-width: 137px;
+    margin-left: 20px;
+}
+
+.menu-item {
+    color: #FFFFFF;
+    list-style-type: none;
+    display: inline;
+    margin-right: 439px;
+}
+
+.menu-item li {
+    margin-right: 29px;
+    display: inline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu-item li:hover {
+    color: maroon;
+    cursor: pointer;
+}
+
+.danner {
+    width: 100%;
+    background-image: url('images/banner.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.danner-text {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    background-color: #FFFFFF;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
